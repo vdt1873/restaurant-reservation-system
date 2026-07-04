@@ -1,0 +1,272 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 24px;
+  background: #1f2421;
+  color: white;
+}
+.navbar .brand {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.nav-links a {
+  color: #e5e5e2;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+}
+.nav-role-badge {
+  background: #b3542f;
+  color: white;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.nav-user {
+  font-size: 0.85rem;
+  color: #cfd0cc;
+}
+.btn-link {
+  background: none;
+  border: none;
+  color: #e5e5e2;
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+.btn-primary-sm {
+  background: #b3542f;
+  color: white !important;
+  padding: 6px 14px;
+  border-radius: 6px;
+  text-decoration: none !important;
+}
+
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 20px 60px;
+}
+
+.home-hero {
+  text-align: center;
+  padding-top: 80px;
+}
+.home-hero h1 {
+  font-size: 2rem;
+  max-width: 600px;
+  margin: 0 auto 12px;
+}
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.auth-page {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+.auth-card {
+  background: white;
+  border: 1px solid #e2e2de;
+  border-radius: 10px;
+  padding: 32px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.auth-card h1 {
+  margin: 0 0 4px;
+  font-size: 1.4rem;
+}
+.auth-switch {
+  font-size: 0.85rem;
+  text-align: center;
+  color: #555;
+}
+.hint {
+  font-size: 0.78rem;
+  color: #888;
+  background: #f2f2ef;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #333;
+}
+input, select {
+  padding: 8px 10px;
+  border: 1px solid #d5d5d0;
+  border-radius: 6px;
+  font-weight: 400;
+}
+
+.btn-primary {
+  background: #b3542f;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.btn-secondary {
+  background: white;
+  border: 1px solid #d5d5d0;
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #1f2421;
+  font-weight: 600;
+}
+.btn-danger-sm {
+  background: #c14444;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.error-banner {
+  background: #fbeaea;
+  color: #a13a3a;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+.success-banner {
+  background: #e8f3e8;
+  color: #2e6b2e;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e2e2de;
+  border-radius: 10px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.form-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.empty-state {
+  color: #888;
+  font-style: italic;
+}
+
+.reservation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.reservation-card {
+  background: white;
+  border: 1px solid #e2e2de;
+  border-radius: 8px;
+  padding: 14px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reservation-card.status-cancelled {
+  opacity: 0.55;
+}
+.muted {
+  color: #888;
+  font-size: 0.82rem;
+}
+.reservation-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.badge {
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.badge-booked {
+  background: #e8f3e8;
+  color: #2e6b2e;
+}
+.badge-cancelled {
+  background: #f0f0ed;
+  color: #888;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+.admin-table th, .admin-table td {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 0.88rem;
+}
+.admin-table th {
+  color: #666;
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+}
+
+.filter-label {
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.table-list {
+  padding-left: 18px;
+  color: #444;
+  font-size: 0.9rem;
+}
